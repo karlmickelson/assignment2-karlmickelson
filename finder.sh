@@ -2,7 +2,7 @@
 # Assignment1 - part1: finder.sh text string search tool
 
 if [ $# -ne 2 ]
-then
+then   # error message
    echo wrong number of arguments. must be 2 
    exit 1
 fi
